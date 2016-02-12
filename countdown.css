@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Teko:300,700);
+
+body { margin: 0; padding: 0;
+  background-image: url("https://cldup.com/s3fkCzIrnU.jpg");
+  position:relative;
+  height: 863px;
+}
+
+nav {
+    width: 100%;
+    background: #078BD3;
+    border: 0px solid #ccc;
+    border-right: none;
+}
+
+nav ul {
+    overflow: hidden;
+    margin: -10px;
+    padding: 8px;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-left: 0px solid #fff;
+    border-right: 0px solid #ccc;
+    width: 16.6667%; /* fallback for non-calc() browsers */
+    width: calc(100% / 6);
+    box-sizing: border-box;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    padding: 10px 0;
+    font-family: arial;
+    color: white;
+    text-shadow: 0px 1px #877D7D;
+}
+
+
+
+
+h3 {
+  font-family: raleway;
+  font-size: 60px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 10px;
+  text-shadow: 2px 2px 5px #000;
+  text-align: center;
+}
+
+
+
+
+
+
+
+#world-premiere {
+  font-size: 16px;
+  font-family: 'Teko', sans-serif;
+  width: 400px;
+  margin: 180px 0px auto;
+  border: 1px solid rgba(255,255,255,.2);
+  background: #000 url(https://cldup.com/1dqfrWlL8F.jpg) no-repeat
+  center bottom;
+  border-radius: 15px;
+  min-height: 570px;
+
+}
+
+#world-premiere .heading {
+  background-color: rgba(0,0,0,.5);
+  padding: 15px 0px 2px 0px;
+  margin: 0px 0px 30px 0px;
+  border-radius: 15px;
+}
+
+#world-premiere h1 {
+  font-size: 4.2em;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 70px;
+  margin: 0px 0px 0px 3px;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+#world-premiere h2 {
+  font-size: 1.5em;
+  color: #6fb5f8;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+#world-premiere .my-countdown .countdown-row {
+display: block; text-align: center;
+}
+
+#world-premiere .my-countdown .countdown-section {
+  display: inline-block; width: 95px;
+}
+
+#world-premiere .my-countdown .countdown-amount {
+  display: block;
+  color: #ffffff;
+  font-size: 5.6em;
+  line-height: 55px;
+}
+
+#world-premiere .my-countdown .countdown-period {
+  display: block; color: #fff; font-size: 1.4em;
+  text-transform: uppercase; letter-spacing: 2px;
+}
